@@ -20,5 +20,5 @@
   .format {
       height: 100px;
       width: 200px;
-      background-size: cover;
+      margin: 20px;
   }

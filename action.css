@@ -2,10 +2,6 @@
      background-color: #ABA8A7;
  }
  
- header {
-     background-color: white(128, 128, 128);
- }
- 
  .flex-container {
      display: flex;
      flex-direction: row;
@@ -14,11 +10,10 @@
  
  .flex-container>items {
      margin: 100px;
-     height: 55px;
  }
  
  .format {
-     height: 100px;
-     width: 200px;
-     background-size: cover;
+     height: 200px;
+     width: 300px;
+     margin: 20px;
  }

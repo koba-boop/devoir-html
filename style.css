@@ -122,25 +122,28 @@ p {
     color: crimson;
 }
 
+.movieAction {
+    margin: 10px;
+}
+
 
 /* Header section */
 
-#header {
+.header {
     position: fixed;
     z-index: 1000;
-    left: 0;
-    top: 0;
+    top: 0px;
     width: 100vw;
     height: auto;
-}
-
-#header .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 8vh;
     background-color: rgba(31, 30, 30, 0.24);
     transition: .3s ease background-color;
 }
 
-#header .nav-bar {
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,7 +153,7 @@ p {
     padding: 0 10px;
 }
 
-#header .nav-list ul {
+.nav-list ul {
     list-style: none;
     position: absolute;
     background-color: rgb(31, 30, 30);
@@ -167,11 +170,11 @@ p {
     transition: .5s ease left;
 }
 
-#header .nav-list ul.active {
+.nav-list ul.active {
     left: 0%;
 }
 
-#header .nav-list ul a {
+.nav-list ul a {
     font-size: 2.5rem;
     font-weight: 500;
     letter-spacing: .2rem;
@@ -182,7 +185,7 @@ p {
     display: block;
 }
 
-#header .nav-list ul a::after {
+.nav-list ul a::after {
     content: attr(data-after);
     position: absolute;
     top: 50%;
