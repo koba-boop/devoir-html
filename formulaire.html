@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Streaming Movie</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>S</span>treaming <span>M</span>ovie</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a class="active" href="formulaire.html">
+                                Formulaire
+                            </a>
+                        </li>
+                        <li>
+                            <a href="action.html">
+                            Films d'action
+                        </a>
+                        </li>
+                        <li>
+                            <a href="comique.html">
+                            films comique
+                        </a>
+                        </li>
+                        <li>
+                            <a href="horreur.html">
+                            films d'horreur
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Service Section -->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title">Form<span>u</span>laire</h1>
+                <p>VEILLEZ REMPLIR LE FORMULAIRE</p>
+            </div>
+            <div class="service-bottom">
+                <h2>Bulletin</h2>
+                <div class="container">
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Nom</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="nom" placeholder="Ton nom..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Prenom</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="prenom" placeholder="Ton prenom..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Pays</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="pays" name="pays">
+        <option value="australia">France</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="angeleterre">Angleterre </option>
+        <option value="allemagne">Allemagne </option>
+      </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Appreciation</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Ecrire quelques choses.." style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
